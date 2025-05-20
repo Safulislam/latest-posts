@@ -1,0 +1,51 @@
+{
+	"apiVersion": 2,
+	"name": "sotech-blocks/latest-posts",
+	"title": "Latest Posts",
+	"description": "Display and filter latest posts.",
+	"keywords":["latest", "posts", "Grid"],
+	"category": "widgets",
+	"icon": "admin-post",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "latest-posts",
+	"editorScript": "file:./build/index.js",
+	"style": "file:./build/style-index.css",
+	"editorStyle": "file:./build/index.css",
+	"attributes": {
+		"numberOfPosts": {
+			"type": "number",
+			"default": 5
+		},
+		"displayFeaturedImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayExcerpt": { "type": "boolean", "default": true },
+		"displayAuthor": { "type": "boolean", "default": true },
+		"displayDate": { "type": "boolean", "default": true },
+		"layout": {
+			"type": "string",
+			"default": "grid"
+		},
+		"order": {
+			"type": "string",
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"categories": {
+			"type": "array",
+			"items": {
+				"type": "object"
+			}
+		},
+		"postType": {
+			"type": "string",
+			"default": "post"
+		}
+	}
+}

@@ -1,0 +1,123 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+ul.wp-block-sotech-blocks-latest-posts {
+  padding: 0;
+  list-style: none;
+}
+ul.wp-block-sotech-blocks-latest-posts li {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+ul.wp-block-sotech-blocks-latest-posts li img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+ul.wp-block-sotech-blocks-latest-posts li h5 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 5px;
+}
+ul.wp-block-sotech-blocks-latest-posts li h5 a {
+  color: #111;
+  text-decoration: none;
+}
+ul.wp-block-sotech-blocks-latest-posts li h5 a:hover {
+  text-decoration: underline;
+}
+ul.wp-block-sotech-blocks-latest-posts li time {
+  display: block;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 5px;
+}
+ul.wp-block-sotech-blocks-latest-posts li p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+}
+ul.wp-block-sotech-blocks-latest-posts:not(.layout-carousel):not(.layout-list) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+ul.wp-block-sotech-blocks-latest-posts.layout-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+ul.wp-block-sotech-blocks-latest-posts.layout-list li {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+ul.wp-block-sotech-blocks-latest-posts.layout-list li img {
+  width: 40%;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+ul.wp-block-sotech-blocks-latest-posts.layout-list li .latest-post-details {
+  flex: 1;
+}
+
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper {
+  margin-bottom: 50px;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide .latest-post-details h5 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide .latest-post-details h5 a {
+  color: #000;
+  text-decoration: none;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide .latest-post-details h5 a:hover {
+  text-decoration: underline;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide .latest-post-details time {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 5px;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-wrapper .swiper-slide .latest-post-details p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  opacity: 0.5;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.wp-block-sotech-blocks-latest-posts.layout-carousel .swiper-pagination-bullet-active {
+  background: #000;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
