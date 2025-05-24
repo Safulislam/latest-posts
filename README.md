@@ -1,5 +1,5 @@
 Latest Post Block – Gutenberg
-The Latest Post Block is a customizable and flexible Gutenberg block that allows you to display recent posts from any selected post type. It provides powerful filtering options and multiple layout styles to suit different use cases.
+The Latest Post Block is a customizable and flexible Gutenberg block that displays recent posts from any selected post type. It provides powerful filtering options and multiple layout styles to suit different use cases.
 
 🎯 Features
 Post Type Selection
